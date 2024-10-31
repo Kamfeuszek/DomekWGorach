@@ -14,7 +14,7 @@
         android:textSize="24dp"
         android:textColor="@color/black"
         android:paddingBottom="15dp"
-        android:textStyle="bold"/>
+        android:paddingLeft="7dp"/>
 
     <ImageView
         android:layout_width="match_parent"
@@ -59,7 +59,8 @@
         android:text="0 polubień"
         android:textColor="@color/black"
         android:paddingVertical="7dp"
-        android:textAlignment="textEnd"/>
+        android:textAlignment="textEnd"
+        android:paddingRight="7dp"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
@@ -70,10 +71,12 @@
         android:text="Opis"
         android:textColor="@color/black"
         android:paddingVertical="8dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:paddingLeft="3dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Odwiedź komfortowy domek w Sudetach, blisko do szlaków turystycznych"
-        android:textColor="@color/gray"/>
+        android:textColor="@color/gray"
+        android:paddingLeft="3dp"/>
 </LinearLayout>
